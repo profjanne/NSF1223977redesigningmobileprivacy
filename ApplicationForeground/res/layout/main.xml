@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0" >
+
+    <!--
+          <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="closeapp"
+        />
+    -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dip"
+        android:layout_weight=".60" >
+
+        <ImageButton
+            android:id="@+id/imgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip" />
+
+        <TextView
+            android:id="@+id/txtTrack"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@+id/imgBtn"
+            android:text="Show location access history "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCall2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/txtTrack"
+            android:layout_below="@+id/txtTrack"
+            android:layout_toRightOf="@+id/imgBtn"
+            android:text="per application"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imgBtn"
+            android:layout_below="@id/imgBtn" />
+
+        <TextView
+            android:id="@+id/txtCall"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/imgBtnCall"
+            android:layout_below="@+id/txtTrack"
+            android:layout_toRightOf="@+id/imgBtnCall"
+            android:text="Leave voice mail "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCall2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/txtCall"
+            android:layout_below="@+id/txtCall"
+            android:layout_toRightOf="@+id/imgBtnCall"
+            android:text="to study Investigators"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imgBtnEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imgBtnCall"
+            android:layout_below="@+id/imgBtnCall" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/imgBtnEmail"
+            android:layout_below="@+id/txtCall"
+            android:layout_toRightOf="@+id/imgBtnEmail"
+            android:text="Send Email "
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCall2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/txtEmail"
+            android:layout_below="@+id/txtEmail"
+            android:layout_toRightOf="@+id/imgBtnEmail"
+            android:text="to study Investigators"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <!-- must has the following list otherwise crash -->
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".40" />
+
+</LinearLayout>

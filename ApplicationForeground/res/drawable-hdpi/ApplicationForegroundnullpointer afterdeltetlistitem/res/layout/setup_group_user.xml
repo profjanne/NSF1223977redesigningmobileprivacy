@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip" >
+
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserID From 1 to 99" />
+
+        <EditText
+            android:id="@+id/etxtTen"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@id/txtTen"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/etxt"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@id/txtTen"
+            android:layout_toRightOf="@id/etxtTen"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <TextView
+            android:id="@+id/txtGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etxtTen"
+            android:text="GroupID From 1 to 9" />
+
+        <EditText
+            android:id="@+id/etxtGroup"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/txtGroup"
+            android:inputType="number"
+            android:maxLength="1" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER" />
+
+</LinearLayout>

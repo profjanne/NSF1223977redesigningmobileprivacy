@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Application Settings" >
+
+        <CheckBoxPreference
+            android:title="Notification Vibrate"
+            android:defaultValue="true"
+            android:key="notvib"
+            android:summary="Vibrate phone when location is accessed"
+            
+             />
+        <!-- <CheckBoxPreference
+            android:title="Notification"
+            android:defaultValue="true"
+            android:key="notification"
+            android:summary="Enable"
+             /> --> 
+         <CheckBoxPreference
+            android:title="Notification On Screen"
+            android:defaultValue="true"
+            android:key="alert"
+            android:summary="Notification will show on whole screen when location is accessed"
+             />
+    </PreferenceCategory>
+
+</PreferenceScreen>

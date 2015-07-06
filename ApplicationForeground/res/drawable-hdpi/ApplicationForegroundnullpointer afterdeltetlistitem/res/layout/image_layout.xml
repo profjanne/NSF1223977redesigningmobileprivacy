@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llToast"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#80000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitleToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#bb000000"
+        android:gravity="top"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:id="@+id/ivCentralImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:src="@drawable/mapredpin" />
+
+    <ImageView
+        android:id="@+id/ivCentralImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:src="@drawable/tri" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llToast1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="fill"
+        android:background="#80000000"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvApp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bb000000"
+            android:gravity="top"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@+id/ivImageToast1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dip"
+            android:maxWidth="60dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" />
+
+        <ImageView
+            android:id="@+id/ivImageToast2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dip"
+            android:maxWidth="60dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" />
+
+        <ImageView
+            android:id="@+id/ivImageToast3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dip"
+            android:maxWidth="60dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" />
+
+        <ImageView
+            android:id="@+id/ivImageToastMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dip"
+            android:maxWidth="60dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" />
+    </LinearLayout>
+
+</RelativeLayout>

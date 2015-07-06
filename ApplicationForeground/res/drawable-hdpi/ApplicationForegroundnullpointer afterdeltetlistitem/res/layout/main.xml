@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:weightSum="1.0">
+
+    <!--
+          <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="closeapp"
+        />
+    -->
+
+    <TextView
+          android:id="@+id/txtTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="18dp"
+        android:text="Show location access history per app"
+        android:textColor="#ffffff"
+        android:textStyle="bold" 
+         android:layout_weight=".08"/>
+
+    <ImageButton
+        android:id="@+id/imgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+            android:layout_weight=".18"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+         android:textSize="18dp"
+        android:text="Leave voice mail to study Investigators"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+         android:layout_weight=".08" />
+
+    <ImageButton
+        android:id="@+id/imgBtnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" 
+         android:layout_weight=".18"/>
+    <!-- must has the following list otherwise crash -->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+         android:layout_weight=".48" />
+
+</LinearLayout>
