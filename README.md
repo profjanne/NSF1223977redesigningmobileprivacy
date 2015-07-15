@@ -5,7 +5,7 @@ NOTE WELL:
 If you use this source code in your work, please cite it as:
 
 Huiqing Fu, Yulong Yang, Nileema Shingte, Janne Lindqvist, Marco Gruteser,
-A Field Study of Run-Time Location Access Disclosures on Android Smartphones
+A Field Study of Run-Time Location Access Disclosures on Android Smartphones,
 Proceedings of USEC'14, 2014.
 
 The paper is available at:
